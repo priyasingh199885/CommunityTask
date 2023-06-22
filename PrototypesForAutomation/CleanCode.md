@@ -98,7 +98,7 @@ In the last months we have worked on documenting the whole process and written d
 
 If you do not miss an update on clean code, test automation, communities of practice, decision making, testability and other engineering / craftsmanship / architecture topics, [subscribe to the brand new newsletter](https://ecosystem4engineering.substack.com/p/collaboration-on-improving). The newsletter will not only be used for sharing knowledge, but also offer opportunities for collaboration, building communities and co-creation.
 
-
+```yaml
 ---
 Date of Evaluation: 2022-01-01
 Development Phase: Code
@@ -107,3 +107,4 @@ Scopes: CAP Java, CAP node.js, Java
 Cluster: Test Automation, DevOps, Developer Experience
 External Speaker: No
 ---
+``` 
