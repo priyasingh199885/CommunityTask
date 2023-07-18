@@ -3,6 +3,7 @@
 import os
 import json
 from ExtractMetadataFromYAMLinEcosystemAbstractToJSON import extract_metadata_from_markdown
+from ExtractMetadataFromYAMLinEcosystemAbstractToJSON import CustomJSONEncoder
 
 # Set the folder path containing the markdown files
 # folder_path = "C:/Users/D045584/Ecosystem/Sessions/PastSessions/2023"
@@ -29,4 +30,4 @@ for md_file in markdown_files:
 
 # Store the aggregated metadata in a JSON file
 with open("metadata_aggregate.json", "w", encoding="utf-8") as json_file:
-    json.dump(metadata_aggregate, json_file, ensure_ascii=False, indent=4)
+    json.dump(metadata_aggregate, json_file, ensure_ascii=False, indent=4, cls=CustomJSONEncoder)

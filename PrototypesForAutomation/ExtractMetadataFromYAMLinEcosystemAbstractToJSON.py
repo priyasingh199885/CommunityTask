@@ -62,10 +62,10 @@ def extract_metadata_from_markdown(file_path):
     except ValueError as e:
         print(str(e))
     if metadata:
-        json_metadata = convert_to_json(metadata)
-        print(json_metadata)
-        return json_metadata
-
+#        json_metadata = convert_to_json(metadata)
+#       print(json_metadata)
+#        return json_metadata
+        return metadata
 def convert_to_json(metadata):
     return json.dumps(metadata, indent=4, cls=CustomJSONEncoder)
 
