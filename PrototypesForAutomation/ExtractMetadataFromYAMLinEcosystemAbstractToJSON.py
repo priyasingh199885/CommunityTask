@@ -1,3 +1,5 @@
+import os
+
 import yaml
 import re
 import json
@@ -34,9 +36,14 @@ def extract_yaml_metadata(content, file_path):
         abstract = abstract_match[0].strip()
         metadata["Abstract"] = abstract
 
+    # determine the github link
+    root_dir = 'C:\\Users\\D045584\\Ecosystem\\' # TODO needs to be adjust
+    relative_path = os.path.relpath(file_path, root_dir).replace("\\","/")
+    github_url = "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/" + relative_path
+
     clean_metadata = {
         "Title": metadata.get("Title", ""),
-        "Path": file_path,  #TODO replace with link to website
+        "GitHub Path": github_url,
         "Abstract": metadata.get("Abstract", ""),
         "Date of Evaluation": metadata.get("Date of Evaluation", ""),
         "Development Phase": metadata.get("Development Phase", ""),
@@ -47,15 +54,17 @@ def extract_yaml_metadata(content, file_path):
     return clean_metadata
 
 def extract_metadata_from_markdown(file_path):
+    print('File Path' + file_path)
     markdown_content = load_file(file_path)
+    metadata = None
     try:
      metadata = extract_yaml_metadata(markdown_content, file_path)
     except ValueError as e:
         print(str(e))
     if metadata:
         json_metadata = convert_to_json(metadata)
-    print(json_metadata)
-    return json_metadata
+        print(json_metadata)
+        return json_metadata
 
 def convert_to_json(metadata):
     return json.dumps(metadata, indent=4, cls=CustomJSONEncoder)
