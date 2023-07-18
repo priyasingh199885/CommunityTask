@@ -42,6 +42,17 @@ The field of AI tools is evolving rapidly, therefore it's best to try and stay c
 - [Collaborative Onboarding Page for new hires, colleagues switching technology stacks / roles or colleagues looking for inspiration](https://pages.github.tools.sap/Onboarding/Onboarding/#/).
 - [Past Newsletters can be found in the corresponding folders](https://github.tools.sap/CloudNativeCulture/Ecosystem/tree/master/Newsletter).
  
+## Session Metadata
+
+```yaml
+- Date of Evaluation: 2023-07-17
+- Development Phase:  Code 
+- Adoption Readiness:  Early Adopter
+- Scopes: General 
+- Topic Clusters: Test Automation, Developer Experience, Security, Artificial Intelligence
+- External Speaker: No
+```
+
 ## Registration List and Communication Channels
 
 - If you want to **[get invitations and newsletters for all topics independent of
@@ -65,13 +76,3 @@ The field of AI tools is evolving rapidly, therefore it's best to try and stay c
 
 
 [Slack]: https://my.slack.com/archives/CSP54NFPZ
-
-```yaml
----
-Date of Evaluation: 2022-02-11
-Development Phase: Code
-Adoption Readiness: Early Adopter
-Scopes: General
-Cluster: Test Automation, Developer Experience
-External Speaker: No
----
