@@ -1,0 +1,21 @@
+{
+  "uaa": {
+    "apiurl": "https://api.authentication.eu12.hana.ondemand.com",
+    "clientid": "sb-1621c68b-001c-4293-81a1-3b223720f91b!b188664|azure-openai-service-i057149-xs!b70230",
+    "clientsecret": "fbde1111-6ae7-4184-9188-ac16a8b4bc43$qXT_b9tZ7rieiKOeMAsfV3m331OWmgTLhQu5NCko1VE=",
+    "credential-type": "binding-secret",
+    "identityzone": "engineeringecosystemllm-ndsc6l8l",
+    "identityzoneid": "ca5b4c9c-4430-41ce-b7e2-4d983fc04556",
+    "sburl": "https://internal-xsuaa.authentication.eu12.hana.ondemand.com",
+    "subaccountid": "ca5b4c9c-4430-41ce-b7e2-4d983fc04556",
+    "tenantid": "ca5b4c9c-4430-41ce-b7e2-4d983fc04556",
+    "tenantmode": "dedicated",
+    "uaadomain": "authentication.eu12.hana.ondemand.com",
+    "url": "https://engineeringecosystemllm-ndsc6l8l.authentication.eu12.hana.ondemand.com",
+    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzVoRxJa/bbXyjYUKHD6V\nGlgb6BOxl6ermU6tmFv4gCApfQS/F5G4bkyHw3aeJjtYPmX5dG+V9FQ1Uy9FUlDZ\nYjXb8Mlo9bMXSYiBCsMEpKtmVUpzuvn+a1ATkxg849tTc08qyi0FwQ6Pf5wUq5qq\njzukQ0a2nm4l+YBKDcbn1yblJY5/RNg9sxzdiLHs6IBS14gAlmjeYPorjyb12Acp\nrfd+my1tLdNBGA5+u0dvW8fPyIqHEhbeY/zFvE4xfvN410VkSxBRX3YWbFugm+p8\nlJvydmLrA+m4cwEzM3IwqOdUgTYZvfkYdxDRzyMcGmdozWoGMX+eTHuEbOsoIETU\nyQIDAQAB\n-----END PUBLIC KEY-----",
+    "xsappname": "1621c68b-001c-4293-81a1-3b223720f91b!b188664|azure-openai-service-i057149-xs!b70230",
+    "zoneid": "ca5b4c9c-4430-41ce-b7e2-4d983fc04556"
+  },
+  "url": "https://azure-openai-serv-i057149.cfapps.eu12.hana.ondemand.com",
+  "vendor": "SAP"
+}

@@ -54,6 +54,28 @@
         "Cluster": "DevOps, Developer Experience, Infrastructure, Culture",
         "External Speaker": false
     },
+    "EffectiveTesting.md": {
+        "Title": "Ecosystem: Effective developer testing: lessons I learned over time",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/EffectiveTesting.md",
+        "Abstract": "We all know by now how to write automated tests. But can we get better at it? For example, how can we make sure we go beyond happy-path testing and create really strong test suites? Is code coverage a bad metric we should ignore, or can it actually help us? Should we go for unit or integration tests? Or are E2E tests much better for more complex systems? Is TDD really a must? Or can we design testable systems without it?\n\nIn this talk, I share lessons I learned over time:\n\n* Testing supports development and bug finding\n* Being systematic helps you create better test cases\n* Bugs love boundaries\n* Code coverage is a good tool\n* Dividing and conquer is the way to test complex systems\n* Testing has to be easy, otherwise no one will do it\n* Making code testable is key to happiness\n* You should trust your test suite\n* Testing isn't magical!\n\nThis talk is based on my recent Effective Software Testing: A Developer's Guide, published by Manning: https://www.effective-software-testing.com/.",
+        "Date of Evaluation": "2023-07-20",
+        "Development Phase": "Code",
+        "Adoption Readiness": "Ready for Adoption",
+        "Scopes": "General",
+        "Cluster": "Developer Experience, Test Automation",
+        "External Speaker": false
+    },
+    "generative-ai-for-abap.md": {
+        "Title": "Ecosystem: How Generative AI can support ABAP developers",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/generative-ai-for-abap.md",
+        "Abstract": "Generative AI has proven capable of generating code and being useful for developers. The ABAP platform wants to make use of this technology to address the total cost of development for ABAP applications. Use cases are abundant: from generating code for new applications over extending existing applications to moderinizing classic ABAP code to ABAP Cloud. We are running a reseach project to reveal today's boundaries (built-in \"knowledge\" about ABAP in LLMs, prompt engineering, model refinement and grounding) and to gather requirements for future LLMs to be trained with ABAP knowledge. In this session, we will give an overview of the current state of our research: PoCs and prompting techniques for certain use cases (e.g.: generating ABAP Cloud applications from natural language), results of our quality benchmarks, and tools we have built for PoCs and our research.",
+        "Date of Evaluation": "2023-09-07",
+        "Development Phase": "Code",
+        "Adoption Readiness": "Visionary",
+        "Scopes": "ABAP",
+        "Cluster": "Developer Experience, Artificial Intelligence",
+        "External Speaker": false
+    },
     "GPTbasedQuestionAnswering.md": {
         "Title": "Ecosystem: GPT-based question answering for proprietary or confidential knowledge databases",
         "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/GPTbasedQuestionAnswering.md",
@@ -63,6 +85,28 @@
         "Adoption Readiness": "Early Adopter",
         "Scopes": "General",
         "Cluster": "Artificial Intelligence",
+        "External Speaker": false
+    },
+    "KubernetesTheHardWay_AWalkThrough.md": {
+        "Title": "Ecosystem: Kubernetes the Hard Way - a walk through and discussion",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/KubernetesTheHardWay_AWalkThrough.md",
+        "Abstract": "I will be giving a live walk-through and discussion of [Kelsey Hightower's Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)\n\nIf you are curious to see what Kubernetes is like under the covers, how it is assembled and wired up, and how it does all its magic in a secure fashion, come along.\nTo quote Kelsey: \"Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.”\n\nThis is an overview of what we will be building, and can serve as a useful reference point:\n\n<img width=\"1792\" alt=\"KTHWa\" src=\"https://media.github.tools.sap/user/717/files/6fc610e6-2e0d-49f4-826e-e26b377ef315\">",
+        "Date of Evaluation": "2023-07-17",
+        "Development Phase": "Operate, Observe and Automate",
+        "Adoption Readiness": "Ready for Adoption",
+        "Scopes": "General, Kubernetes",
+        "Cluster": "Cloud, Infrastructure",
+        "External Speaker": false
+    },
+    "OpenIDConnectMoreFunAndPossibilities.md": {
+        "Title": "Ecosystem: Workload Identities and OpenID Connect - More Fun, More Possibilities",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/OpenIDConnectMoreFunAndPossibilities.md",
+        "Abstract": "Dive into the compelling use-cases for workload identities, grasp their benefits, and discover how they can foster more intuitive, maintainable, and secure setups.\n\nYou will delve into the nuances of using OpenID Connect in Jenkins, learn to secure database connections, appreciate the benefits of credential-less multi-cluster ArgoCD, and understand integration approaches with HashiCorp Vault. These instances merely scratch the surface of the fascinating scenarios you will encounter. This session aims to arm you with a wide-ranging understanding of the opportunities and practical strategies to enhance your setup.\n\nWhile it may help to have seen the previous session on [\"How to Establish Secure and Easy Communication with Workload Identities for Technical Users\"](https://pages.github.tools.sap/CloudNativeCulture/Ecosystem/#/Sessions/PastSessions/2023/WorkloadIdentiesWithOpenIDConnect), it's not a necessity. I'll provide a concise recap of the basics of workload identities. For a more in-depth understanding, I recommend viewing the [recording of the previous session](https://video.sap.com/media/t/1_qs396pw9/145787301).",
+        "Date of Evaluation": "2023-11-21",
+        "Development Phase": "Operate, Observe and Automate",
+        "Adoption Readiness": "Ready for Adoption",
+        "Scopes": "General",
+        "Cluster": "DevOps, Developer Experience, Security, Infrastructure",
         "External Speaker": false
     }
 }
