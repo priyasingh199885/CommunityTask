@@ -4,6 +4,7 @@ import yaml
 import re
 import json
 from datetime import date
+from ExtractKeyWordsFromMarkdownWithLLMSupport import extract_keywords_from_abstract
 
 class CustomJSONEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -40,7 +41,7 @@ def extract_yaml_metadata(content, file_path):
     root_dir = 'C:\\Users\\D045584\\Ecosystem\\' # TODO needs to be adjust
     relative_path = os.path.relpath(file_path, root_dir).replace("\\","/")
     github_url = "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/" + relative_path
-
+    keywords = extract_keywords_from_abstract(abstract, file_path)
     clean_metadata = {
         "Title": metadata.get("Title", ""),
         "GitHub Path": github_url,
@@ -50,7 +51,8 @@ def extract_yaml_metadata(content, file_path):
         "Adoption Readiness": metadata.get("Adoption Readiness", ""),
         "Scopes": metadata.get("Scopes", ""),
         "Cluster": metadata.get("Topic Clusters", ""),
-        "External Speaker": metadata.get("External Speaker", False)}
+        "External Speaker": metadata.get("External Speaker", False),
+        "Keywords": keywords }
     return clean_metadata
 
 def extract_metadata_from_markdown(file_path):

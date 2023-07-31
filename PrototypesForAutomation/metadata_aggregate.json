@@ -8,7 +8,8 @@
         "Adoption Readiness": "Visionary",
         "Scopes": "General",
         "Cluster": "Architecture, Artificial Intelligence",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "keywords: ['ADA', 'ArchOps Prototype', 'collaboration-centric approach', 'AI-augmented approach', 'solution design and operations']"
     },
     "AiLeap.md": {
         "Title": "Ecosystem: A leap forward in AI? How are Chat GPT, Vall-E affecting us",
@@ -19,7 +20,8 @@
         "Adoption Readiness": "Early Adopter",
         "Scopes": "General",
         "Cluster": "Developer Experience, Security, Artificial Intelligence",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "keywords: ['Chat-GPT', 'machine learning models', 'advancement', 'benefits', 'risks']"
     },
     "AI_Tooling.md": {
         "Title": "Ecosystem: AI Engineering Tools",
@@ -30,18 +32,20 @@
         "Adoption Readiness": "Early Adopter",
         "Scopes": "General",
         "Cluster": "Test Automation, Developer Experience, Security, Artificial Intelligence",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "- AI tools for developer experience improvement\n- Enhancing SAP open source sflight CAP example with AI-based commercial tools\n- Usage and exploration of AI tools within SAP\n- Generating test data, enhancing code, and creating tests with GitHub CoPilot\n- Getting information on code security and quality with Snyk Code\n- Generating code documentation with Mintlify\n- Coding examples with GPT-4"
     },
     "ArchitectureEvaluationInAgileContext.md": {
         "Title": "Ecosystem: Architecture evaluations in agile environments",
         "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/ArchitectureEvaluationInAgileContext.md",
-        "Abstract": "",
+        "Abstract": "Architecture evaluations originate from the \"classic\" school of software architecture. To what extent do agile projects benefit from this practice? What is the state-of-the-practice and which methods are suited for agile environments? How does the well-known Architecture Tradeoff Analysis Method (ATAM) fare in this regard? In this session I will provide answers, support them with practical experience and give tips for your own application.",
         "Date of Evaluation": "2023-07-17",
         "Development Phase": "Requirements, Plan",
         "Adoption Readiness": "Ready for Adoption",
         "Scopes": "General",
         "Cluster": "Architecture",
-        "External Speaker": true
+        "External Speaker": true,
+        "Keywords": "keywords: ['architecture evaluations', 'agile projects', 'state-of-the-practice', 'methods', 'Architecture Tradeoff Analysis Method (ATAM)']"
     },
     "DORA.md": {
         "Title": "Ecosystem: DORA - Why It's Important, And Why It's Challenging",
@@ -52,7 +56,8 @@
         "Adoption Readiness": "Ready for Adoption",
         "Scopes": "General",
         "Cluster": "DevOps, Developer Experience, Infrastructure, Culture",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "keywords: ['DevOps Research and Assessment', 'metrics', 'Cloud Native & DevOps practices & principles', 'difficulties', 'organization and architecture']"
     },
     "EffectiveTesting.md": {
         "Title": "Ecosystem: Effective developer testing: lessons I learned over time",
@@ -63,7 +68,8 @@
         "Adoption Readiness": "Ready for Adoption",
         "Scopes": "General",
         "Cluster": "Developer Experience, Test Automation",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "keywords: ['automated tests', 'test suites', 'code coverage', 'unit tests', 'TDD']"
     },
     "generative-ai-for-abap.md": {
         "Title": "Ecosystem: How Generative AI can support ABAP developers",
@@ -74,7 +80,8 @@
         "Adoption Readiness": "Visionary",
         "Scopes": "ABAP",
         "Cluster": "Developer Experience, Artificial Intelligence",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "keywords: ['Generative AI', 'ABAP platform', 'total cost of development', 'ABAP applications', 'research project']"
     },
     "GPTbasedQuestionAnswering.md": {
         "Title": "Ecosystem: GPT-based question answering for proprietary or confidential knowledge databases",
@@ -85,7 +92,8 @@
         "Adoption Readiness": "Early Adopter",
         "Scopes": "General",
         "Cluster": "Artificial Intelligence",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "keywords: ['HOUDINIE', 'GPT-based chat interface', 'text embeddings database', 'infrastructure setup', 'CAP-based API service']"
     },
     "KubernetesTheHardWay_AWalkThrough.md": {
         "Title": "Ecosystem: Kubernetes the Hard Way - a walk through and discussion",
@@ -96,7 +104,8 @@
         "Adoption Readiness": "Ready for Adoption",
         "Scopes": "General, Kubernetes",
         "Cluster": "Cloud, Infrastructure",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "keywords: ['Kubernetes the Hard Way', 'live walk-through', 'discussion', 'assembly and wiring', 'secure fashion']"
     },
     "OpenIDConnectMoreFunAndPossibilities.md": {
         "Title": "Ecosystem: Workload Identities and OpenID Connect - More Fun, More Possibilities",
@@ -107,6 +116,7 @@
         "Adoption Readiness": "Ready for Adoption",
         "Scopes": "General",
         "Cluster": "DevOps, Developer Experience, Security, Infrastructure",
-        "External Speaker": false
+        "External Speaker": false,
+        "Keywords": "keywords: ['workload identities', 'OpenID Connect', 'database connections', 'credential-less multi-cluster ArgoCD', 'integration approaches']"
     }
 }
