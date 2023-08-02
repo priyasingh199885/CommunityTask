@@ -107,6 +107,6 @@ Adoption Readiness: Early Adopter
 Scopes: CAP Java, CAP node.js, Java
 Cluster: Test Automation, DevOps, Developer Experience
 External Speaker: No
-Invitiation-sent: no
+Invitiation-sent: false
 ---
 ``` 
