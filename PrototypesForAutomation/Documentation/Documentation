@@ -1,0 +1,15 @@
+cURL
+
+curl is a command-line tool for getting or sending data including files using URL syntax. Since curl uses libcurl, it supports every protocol libcurl supports.[13]
+curl supports HTTPS and performs SSL certificate verification by default when a secure protocol is specified such as HTTPS. When curl connects to a remote server via HTTPS, it will obtain the remote server certificate, then check against its CA certificate store the validity of the remote server to ensure the remote server is the one it claims to be
+The library supports the file URI scheme, SFTP, Telnet, TFTP, file transfer resume, FTP uploading, HTTP form-based upload, HTTPS certificates, LDAPS, proxies, and user-plus-password authentication.[13]
+The libcurl library is portable. It builds and works identically on many platforms, including AIX, AmigaOS, Android,[citation needed] BeOS, BlackBerry Tablet OS
+The libcurl library is free, thread-safe and IPv6 compatible.
+
+
+
+Hanlding of personal access token
+yes there is a rate limit in place for the whole REST-API of 5000 API-calls per user per hour.
+How to securely manage the access token depends a lot on where you’re running your whatever you’re building.
+Assuming you’re deploying it somewhere it is recommended to both not use a token associated with your personal user, but rather a technical user (or even better a GitHub App).
+Then you store the long-lived credentials not directly in your code, but rather provide them at runtime only via e.g. environment variables. How to do that exactly depends a lot on where you deploy and there most likely exist guides online on how to provide secrets securely to your runtime environment.

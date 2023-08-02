@@ -1,0 +1,18 @@
+{
+    "AI_Tooling.md": {
+        "Date of Evaluation": "2022-02-11",
+        "Development Phase": "Code",
+        "Adoption Readiness": "Early Adopter",
+        "Scopes": "General",
+        "Cluster": "Test Automation, Developer Experience",
+        "External Speaker": false
+    },
+    "CleanCode.md": {
+        "Date of Evaluation": "2022-01-01",
+        "Development Phase": "Code",
+        "Adoption Readiness": "Early Adopter",
+        "Scopes": "CAP Java, CAP node.js, Java",
+        "Cluster": "Test Automation, DevOps, Developer Experience",
+        "External Speaker": false
+    }
+}
