@@ -67,14 +67,13 @@ The field of AI tools is evolving rapidly, therefore it's best to try and stay c
 [Slack]: https://my.slack.com/archives/CSP54NFPZ
 
 ```yaml
----
-Date of Session: 2023-07-31
-Date of Evaluation: 2022-02-11
-Development Phase: Code
-Adoption Readiness: Early Adopter
-Scopes: General
+---Adoption Readiness: Early Adopter
 Cluster: Test Automation, Developer Experience
-External Speaker: No
-Invitation-sent: False
+Date of Evaluation: 2022-02-11
+Date of Session: 2023-07-31
+Development Phase: Code
+External Speaker: false
+Invitation-sent: true
+Scopes: General
 ---
 ```
