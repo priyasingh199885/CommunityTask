@@ -1,4 +1,10 @@
+---
+Invitation-sent: false
+---
+
+
 # Ecosystem: AI Engineering Tools
+
 
 In this session Christian will show you what development looks like when you can use AI based development tools.
 Currently those tools are usually not allowed for usage within SAP (e.g. [CoPilot](https://sap.stackenterprise.co/questions/3729)). But still it makes sense to learn and explore the capabilities these tools offer.
@@ -73,7 +79,6 @@ Date of Evaluation: 2022-02-11
 Date of Session: 2023-07-31
 Development Phase: Code
 External Speaker: false
-Invitation-sent: true
 Scopes: General
 ---
 ```
