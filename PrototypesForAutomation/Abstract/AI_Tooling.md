@@ -1,5 +1,6 @@
 ---
 Invitation-sent: false
+Date of Session: 2023-07-31
 ---
 
 
@@ -76,7 +77,6 @@ The field of AI tools is evolving rapidly, therefore it's best to try and stay c
 ---Adoption Readiness: Early Adopter
 Cluster: Test Automation, Developer Experience
 Date of Evaluation: 2022-02-11
-Date of Session: 2023-07-31
 Development Phase: Code
 External Speaker: false
 Scopes: General
