@@ -1,6 +1,5 @@
----
-Date of Session: 2023-08-30
-Invitation-sent: false
+---Date of Session: 2023-08-30
+Invitation-sent: true
 ---
 # Clean Code: Writing maintainable, readable and testable code 
 
@@ -113,4 +112,3 @@ Cluster: Test Automation, DevOps, Developer Experience
 External Speaker: No
 Invitiation-sent: false
 ---
-```
