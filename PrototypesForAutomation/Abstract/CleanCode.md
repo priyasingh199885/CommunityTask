@@ -1,7 +1,8 @@
 ---
 Date of Session: 2023-08-30
-Invitation-sent: true
-hello---
+Invitation-sent: false
+---
+
 # Clean Code: Writing maintainable, readable and testable code 
 
 Clean code is a term used to describe software that is easy to read, understand, maintain and test. In this blog I want to summarize some important principles, provide an entry into the topic for beginners. Besides, the blog shall connect to the style guide repository, the books and current initiatives where experts can contribute. If you do not miss an update on clean code, test automation, communities of practice, decision making, testability and other engineering / craftsmanship / architecture topics, [subscribe to the brand new newsletter](https://ecosystem4engineering.substack.com/p/collaboration-on-improving).
