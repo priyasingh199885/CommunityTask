@@ -52,7 +52,8 @@ def extract_yaml_metadata(content, file_path):
         "Scopes": metadata.get("Scopes", ""),
         "Cluster": metadata.get("Topic Clusters", ""),
         "External Speaker": metadata.get("External Speaker", False),
-        "Keywords": keywords }
+        "Keywords": keywords
+    }
     return clean_metadata
 
 def extract_metadata_from_markdown(file_path):
