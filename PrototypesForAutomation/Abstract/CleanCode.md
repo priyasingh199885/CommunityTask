@@ -1,6 +1,6 @@
 ---
 Date of Session: 2023-08-30
-Invitation-sent: false
+Invitation-sent: true
 ---
 
 # Clean Code: Writing maintainable, readable and testable code 
