@@ -1,6 +1,6 @@
 ---
-Date of Session: 2023-07-31
-Invitation-sent: true
+Date of Session: 2023-09-31
+Invitation-sent: false
 ---
 
 
