@@ -1,6 +1,6 @@
 ---
 Date of Session: 2023-09-05
-Invitation-sent: true
+Invitation-sent: false
 ---
 
 # Ecosystem: AI Engineering Tools
