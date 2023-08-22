@@ -3,9 +3,7 @@ Date of Session: 2023-09-05
 Invitation-sent: false
 ---
 
-
 # Ecosystem: AI Engineering Tools
-
 
 In this session Christian will show you what development looks like when you can use AI based development tools.
 Currently those tools are usually not allowed for usage within SAP (e.g. [CoPilot](https://sap.stackenterprise.co/questions/3729)). But still it makes sense to learn and explore the capabilities these tools offer.
@@ -74,3 +72,14 @@ The field of AI tools is evolving rapidly, therefore it's best to try and stay c
 [Slack]: https://my.slack.com/archives/CSP54NFPZ
 
 ```yaml
+---
+Date of Session: 2023-07-31
+Date of Evaluation: 2022-02-11
+Development Phase: Code
+Adoption Readiness: Early Adopter
+Scopes: General
+Cluster: Test Automation, Developer Experience
+External Speaker: No
+Invitation-sent: False
+---
+```
