@@ -1,6 +1,6 @@
 ---
 Date of Session: 2023-09-05
-Invitation-sent: false
+Invitation-sent: true
 ---
 
 # Ecosystem: AI Engineering Tools
@@ -82,4 +82,3 @@ Cluster: Test Automation, Developer Experience
 External Speaker: No
 Invitation-sent: False
 ---
-```
