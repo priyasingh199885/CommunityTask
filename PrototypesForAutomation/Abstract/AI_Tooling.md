@@ -1,8 +1,3 @@
----
-Date of Session: 2023-09-05
-Invitation-sent: true
----
-
 # Ecosystem: AI Engineering Tools
 
 In this session Christian will show you what development looks like when you can use AI based development tools.
@@ -82,3 +77,4 @@ Cluster: Test Automation, Developer Experience
 External Speaker: No
 Invitation-sent: False
 ---
+```
