@@ -11,7 +11,6 @@ from ExtractMetadataFromYAMLinEcosystemAbstractToJSON import CustomJSONEncoder
 
 folder_path = "C:/Users/D045584/Ecosystem/Sessions/PastSessions/2023"
 
-
 # Read all the markdown files in the folder
 markdown_files = [entry for entry in os.listdir(folder_path) if entry.endswith(".md")]
 

@@ -26,13 +26,14 @@ def extract_keywords_from_abstract(content, file_path):
         - Be specific and not too broad or too narrow.
         - Be representative of the text and the topic of software engineering, development, and architecture.
         - Be ordered from most to least important.
-        - Be formatted as a yaml array starting.   
+        - Be formatted as a yaml array starting.
+        - The result should be an array of keywords in the form of a yaml array.   
 
         Text: {text}
 
         **Example:**
             Input text: Software engineering is the systematic application of engineering approaches to the development of software. Software engineering is a direct sub-discipline of engineering and has an overlap with computer science and management science. It is also considered a part of overall systems engineering.
-            keywords: ['software engineering', 'development', 'engineering approaches', 'systems engineering', 'computer science']"""
+            ['software engineering', 'development', 'engineering approaches', 'systems engineering', 'computer science']"""
 
     prompt = PromptTemplate.from_template(PROMPT)
 

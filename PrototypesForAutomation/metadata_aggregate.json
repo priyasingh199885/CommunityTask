@@ -9,7 +9,7 @@
         "Scopes": "General",
         "Cluster": "Architecture, Artificial Intelligence",
         "External Speaker": false,
-        "Keywords": "keywords: ['ADA', 'ArchOps Prototype', 'collaboration-centric approach', 'AI-augmented approach', 'solution design and operations']"
+        "Keywords": "['ArchOps Prototype', 'collaboration-centric approach', 'AI-augmented approach', 'solution design and operations', 'engineering experience']"
     },
     "AiLeap.md": {
         "Title": "Ecosystem: A leap forward in AI? How are Chat GPT, Vall-E affecting us",
@@ -21,7 +21,7 @@
         "Scopes": "General",
         "Cluster": "Developer Experience, Security, Artificial Intelligence",
         "External Speaker": false,
-        "Keywords": "keywords: ['Chat-GPT', 'machine learning models', 'advancement', 'benefits', 'risks']"
+        "Keywords": "['Chat-GPT', 'machine learning models', 'advancement', 'benefits', 'risks']"
     },
     "AI_Tooling.md": {
         "Title": "Ecosystem: AI Engineering Tools",
@@ -33,7 +33,7 @@
         "Scopes": "General",
         "Cluster": "Test Automation, Developer Experience, Security, Artificial Intelligence",
         "External Speaker": false,
-        "Keywords": "- AI tools for developer experience improvement\n- Enhancing SAP open source sflight CAP example with AI-based commercial tools\n- Usage and exploration of AI tools within SAP\n- Generating test data, enhancing code, and creating tests with GitHub CoPilot\n- Getting information on code security and quality with Snyk Code\n- Generating code documentation with Mintlify\n- Coding examples with GPT-4"
+        "Keywords": "['AI based commercial tools', 'developer experience', 'enhancing SAP open source sflight CAP example', 'GitHub CoPilot', 'Snyk Code']"
     },
     "ArchitectureEvaluationInAgileContext.md": {
         "Title": "Ecosystem: Architecture evaluations in agile environments",
@@ -45,7 +45,7 @@
         "Scopes": "General",
         "Cluster": "Architecture",
         "External Speaker": true,
-        "Keywords": "keywords: ['architecture evaluations', 'agile projects', 'state-of-the-practice', 'methods', 'Architecture Tradeoff Analysis Method (ATAM)']"
+        "Keywords": "['architecture evaluations', 'agile projects', 'state-of-the-practice', 'methods suited for agile environments', 'Architecture Tradeoff Analysis Method (ATAM)']"
     },
     "DORA.md": {
         "Title": "Ecosystem: DORA - Why It's Important, And Why It's Challenging",
@@ -57,7 +57,7 @@
         "Scopes": "General",
         "Cluster": "DevOps, Developer Experience, Infrastructure, Culture",
         "External Speaker": false,
-        "Keywords": "keywords: ['DevOps Research and Assessment', 'metrics', 'Cloud Native & DevOps practices & principles', 'difficulties', 'organization and architecture']"
+        "Keywords": "['DevOps Research and Assessment', 'metrics', 'Cloud Native & DevOps practices & principles', 'difficulties in adopting DevOps practices', 'organization and architecture']"
     },
     "EffectiveTesting.md": {
         "Title": "Ecosystem: Effective developer testing: lessons I learned over time",
@@ -69,7 +69,7 @@
         "Scopes": "General",
         "Cluster": "Developer Experience, Test Automation",
         "External Speaker": false,
-        "Keywords": "keywords: ['automated tests', 'test suites', 'code coverage', 'unit tests', 'TDD']"
+        "Keywords": "- Automated tests\n- Test suites\n- Code coverage\n- Unit tests\n- Testable systems"
     },
     "generative-ai-for-abap.md": {
         "Title": "Ecosystem: How Generative AI can support ABAP developers",
@@ -81,7 +81,19 @@
         "Scopes": "ABAP",
         "Cluster": "Developer Experience, Artificial Intelligence",
         "External Speaker": false,
-        "Keywords": "keywords: ['Generative AI', 'ABAP platform', 'total cost of development', 'ABAP applications', 'research project']"
+        "Keywords": "['Generative AI', 'ABAP platform', 'code generation', 'ABAP applications', 'research project']"
+    },
+    "GitHubActionsWorkshop.md": {
+        "Title": "Ecosystem: GitHub Actions Workshop: Lift-off with GitHub Actions at SAP - it's not rocket-science",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/GitHubActionsWorkshop.md",
+        "Abstract": "In this workshop, you'll start a learning journey that will empower you to automate your workflows and deployments using GitHub Actions. Whether you're a beginner or have some experience, the workshop will help you gain confidence using Actions in SAP, and learn how to use it with Hyperspace.\n\nKey Workshop Highlights:\n1. GitHub Actions in SAP: You will learn how GitHub Actions works in SAP nowadays, and how it will work once they are Generally Available.\n2. Hyperspace Sneak Peak: How onboarding and using GitHub Actions with Hyperspace will work once General Availability is reached.\n2. Run your first GitHub Action: We will guide you through the process of setting up and running your first GitHub Action, providing you with a solid foundation to build upon.\n3. Harness the power of the Marketplace: Discover the vast collection of pre-built actions available in the Marketplace, allowing you to extend your workflows and enhance automation effortlessly.\n4. Create a complete and secure CI pipeline from scratch: Learn how to architect and implement a comprehensive Continuous Integration (CI) pipeline using GitHub Actions. We will cover best practices for security and code quality to ensure your workflows are efficient and reliable.\n5. Deploy your application to the cloud: Dive into the world of deployment automation as we guide you through the process of deploying your application to the cloud.\n\nGet ready to take off with GitHub Actions's General Availability in SAP!",
+        "Date of Evaluation": "2023-07-25",
+        "Development Phase": "Code, Build, Test, Release",
+        "Adoption Readiness": "Early Adopter",
+        "Scopes": "General",
+        "Cluster": "DevOps, Developer Experience",
+        "External Speaker": true,
+        "Keywords": "['GitHub Actions', 'automate workflows and deployments', 'SAP', 'Hyperspace', 'CI pipeline']"
     },
     "GPTbasedQuestionAnswering.md": {
         "Title": "Ecosystem: GPT-based question answering for proprietary or confidential knowledge databases",
@@ -93,7 +105,19 @@
         "Scopes": "General",
         "Cluster": "Artificial Intelligence",
         "External Speaker": false,
-        "Keywords": "keywords: ['HOUDINIE', 'GPT-based chat interface', 'text embeddings database', 'infrastructure setup', 'CAP-based API service']"
+        "Keywords": "- GPT-based chat interface\n- Secure prototype\n- Text embeddings database\n- Infrastructure setup\n- CAP-based API service"
+    },
+    "kg4hana.md": {
+        "Title": "Ecosystem: KG4HANA: Knowledge Graph for SAP Metadata Models",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/kg4hana.md",
+        "Abstract": "Developing applications using (cross) customer data sources from SAP systems faces several challenges. Manual data modeling needs to happen case by case, leading to high touch development. Domain knowledge is crucial, and onboarding for new developers slows down time to market. With our main persona of the developer type \"data scientist in SAP\", we have created a knowledge graph (KG) that addresses these challenges. It encodes the S4 public cloud metadata model and leverages the existing S4 situation knowledge graph for our use case. With the KG, we can re-use existing modeling across use cases and leverage existing efforts. In that way, we also ease the effort for new data scientists and other data hungry developers to acquire domain knowledge about SAP data models. In this talk, we will describe the KG use cases, the KG content and ways to access the KG. These include a graphical UI and also large language model (LLM) based access, which showcases the benefit of combining KG with LLMs.",
+        "Date of Evaluation": "2023-08-29",
+        "Development Phase": "Code",
+        "Adoption Readiness": "Visionary",
+        "Scopes": "General",
+        "Cluster": "Artificial Intelligence",
+        "External Speaker": false,
+        "Keywords": "['challenges', 'knowledge graph', 'data modeling', 'domain knowledge', 'access']"
     },
     "KubernetesTheHardWay_AWalkThrough.md": {
         "Title": "Ecosystem: Kubernetes the Hard Way - a walk through and discussion",
@@ -105,7 +129,19 @@
         "Scopes": "General, Kubernetes",
         "Cluster": "Cloud, Infrastructure",
         "External Speaker": false,
-        "Keywords": "keywords: ['Kubernetes the Hard Way', 'live walk-through', 'discussion', 'assembly and wiring', 'secure fashion']"
+        "Keywords": "['Kubernetes the Hard Way', 'live walk-through', 'discussion', 'learning', 'secure fashion']"
+    },
+    "llm-commons.md": {
+        "Title": "Ecosystem: Getting Started with LLM-based Applications in SAP",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/llm-commons.md",
+        "Abstract": "The release of ChatGPT created a huge buzz that shows no signs of slowing down. We are all challenged to explore the new possibilities and come up with ideas that create value for SAP. To do this, it is important to gain first-hand experience and conduct our own experiments. In addition to personal experience, we need to create synergies and share best practices. One attempt to do this is the [`llm-commons`](https://github.tools.sap/AI-Playground-Projects/llm-commons) project. I will show you how to start testing your own ideas and how to enable others to do so by contributing to [`llm-commons`](https://github.tools.sap/AI-Playground-Projects/llm-commons).\n\nThe code examples I will show are meant to illustrate an additional point. In many discussions and conversations over the past few months, I've noticed that many people still think of chatbot-like applications when talking about what's possible with LLM. Therefore, I will show how LLMs can be used as a logical building block within an application, and what our team's main \"lessons learned\" are when building LLM-based applications beyond chatbots.",
+        "Date of Evaluation": "2023-08-01",
+        "Development Phase": "Code",
+        "Adoption Readiness": "Early Adopter",
+        "Scopes": "General",
+        "Cluster": "Artificial Intelligence",
+        "External Speaker": false,
+        "Keywords": "['ChatGPT', 'software engineering', 'LLM-based applications', 'llm-commons project', 'synergies and best practices']"
     },
     "OpenIDConnectMoreFunAndPossibilities.md": {
         "Title": "Ecosystem: Workload Identities and OpenID Connect - More Fun, More Possibilities",
@@ -117,6 +153,42 @@
         "Scopes": "General",
         "Cluster": "DevOps, Developer Experience, Security, Infrastructure",
         "External Speaker": false,
-        "Keywords": "keywords: ['workload identities', 'OpenID Connect', 'database connections', 'credential-less multi-cluster ArgoCD', 'integration approaches']"
+        "Keywords": "['workload identities', 'OpenID Connect', 'database connections', 'credential-less multi-cluster ArgoCD', 'integration approaches']"
+    },
+    "OpenRewrite.md": {
+        "Title": "Ecosystem: Large Scale Refactoring: Auto-Remediating Source Code at Scale with OpenRewrite",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/OpenRewrite.md",
+        "Abstract": "Keeping up with code quality, security, and dependencies has become a large share of our work as developers. Scanning tools can help you find vulnerabilities and dependencies across hundreds of thousands of OSS projects, but the challenge is how to scale the triaging, reporting, and fixing that remains manual.\n\nIn this session, we’ll delve into the features and capabilities of OpenRewrite that enable you to not only find, but actually fix code quality, security and dependency issues automatically—at scale—across your modern code base. \n\nHave breaking changes been breaking your dev team's spirit? Have you been putting off migrating from Spring Boot 2 to 3? Java 8 to 11 to 17? JUnit 4 to 5? Or feeling buried under the weight of CVE patches and static analysis issue remediations? You don’t have to feel this way anymore. By leveraging OpenRewrite, your development team can free yourselves from 1,000s of hours of tedious manual work yet remain in control of automated, easily actionable (i.e. mergable) pull requests to safely update deprecated APIs, refactor code, modernize libraries, and apply architectural patterns consistently across an entire codebase.",
+        "Date of Evaluation": "2023-08-08",
+        "Development Phase": "Code",
+        "Adoption Readiness": "Early Adopter",
+        "Scopes": "General",
+        "Cluster": "DevOps, Developer Experience",
+        "External Speaker": true,
+        "Keywords": "['code quality', 'security', 'dependencies', 'OpenRewrite', 'automated fixes']"
+    },
+    "SAPBusinessApplicationStudio.md": {
+        "Title": "Ecosystem: Develop Full-Stack Applications Using Productivity Tools in SAP Business Application Studio",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/SAPBusinessApplicationStudio.md",
+        "Abstract": "SAP Business Application Studio (BAS) is being used by tens of thousands of SAP customer developers and SAP internal developers every day.\nBAS, powered by MS code OSS, the open source that serves MS VSCode desktop product, offers a set of high productivity visual tools for the proffesional developers, as well as a clear path to standard proffesional develpment tools, according to the developers needs and skillset and the application complexity.\nIn this session we will be giving a live walkthrough of the developer experience, the key benefits and the way forward.",
+        "Date of Evaluation": "2023-08-02",
+        "Development Phase": "Code, Build, Test",
+        "Adoption Readiness": "Default in Golden Path",
+        "Scopes": "General",
+        "Cluster": "Developer Experience",
+        "External Speaker": false,
+        "Keywords": "['SAP Business Application Studio', 'MS code OSS', 'high productivity visual tools', 'professional development tools', 'developer experience']"
+    },
+    "TCOGoodPractices.md": {
+        "Title": "Ecosystem: Good practices for optimizing cost for cloud development and operations",
+        "GitHub Path": "https://github.tools.sap/CloudNativeCulture/Ecosystem/blob/main/Sessions/PastSessions/2023/TCOGoodPractices.md",
+        "Abstract": "To meet market expectations and achieve our ambitions, SAP needs to return to double-digit profit growth in 2023 and reach an 80% cloud gross margin by 2025.\nAnd you can help! But how? Jan and Jochen will share good practices for optimizing cost for cloud development and operations.",
+        "Date of Evaluation": "2023-08-09",
+        "Development Phase": "Cross",
+        "Adoption Readiness": "Ready for Adoption",
+        "Scopes": "General",
+        "Cluster": "Lifecycle Management",
+        "External Speaker": false,
+        "Keywords": "['market expectations', 'double-digit profit growth', '80% cloud gross margin', 'optimizing cost', 'cloud development and operations']"
     }
 }
