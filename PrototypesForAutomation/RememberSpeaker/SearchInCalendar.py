@@ -4,8 +4,12 @@ from datetime import datetime, timedelta
 def get_calendar_meetings(date_to_search, keyword):
     outlook = win32.Dispatch("Outlook.Application")
     namespace = outlook.GetNamespace("MAPI")
-    calendar = namespace.GetDefaultFolder(9)  # 9 represents the Calendar folder
-    print(calendar.Name)
+    calendar = namespace.GetDefaultFolder(9).Items  # 9 represents the Calendar folder
+    calendar.Sort("[Start]")  # Sort appointment items by start date
+    calendar.IncludeRecurrences = "True"
+    for appointment in calendar:
+        if appointment.Subject.find('blocker for ecosystem') > 0:
+            print(appointment.Start, appointment.Subject)
 
     cal = namespace.Folders("priya.singh05@sap.com").Folders("Calendar")
     print(cal.Name)
@@ -21,7 +25,7 @@ def get_calendar_meetings(date_to_search, keyword):
     # Retrieve the filtered appointments/meetings in the calendar
     appointments = calendar.Items.Restrict(filter_str)
     appointments.IncludeRecurrences = True
-
+    print(appointments)
     for appointment in appointments:
         if appointment.MeetingStatus == 0:
             print("Subject:", appointment.Subject)
