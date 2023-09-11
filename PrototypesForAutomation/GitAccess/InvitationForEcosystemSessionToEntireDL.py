@@ -5,6 +5,7 @@ import yaml
 import datetime
 import win32com.client as win32
 import CreateDraft
+#import CreateDraftAppointment
 import os
 #from GitAccess import CalendarUpdateAbstract as cl
 outlook = win32.Dispatch("Outlook.Application")
@@ -71,7 +72,7 @@ if response.status_code == 200:
                             if user_input == "y":
                                 file_url=url + file['name']
                                 file_abstract = requests.get(file_url, headers=headers).text
-                                yaml_content['Invitation-sent'] = True
+                                yaml_content['Invitation-sent'] = False
                                 subject = get_first_heading(raw_content)
                                 updated_yaml_block = yaml.dump(yaml_content)
                                 body_content = raw_content[2] + "---" + raw_content[3] + "---"
@@ -93,6 +94,8 @@ if response.status_code == 200:
                                     print(f"File update failed. Response: {put_response.content}")
                                 try:
                                    CreateDraft.create_draft(subject,body_content1,body_content2,dl, 'cc@example.com', 'bcc@example.com')
+                                   #CreateDraftAppointment.create_appointment(subject, body_content1, body_content2, dl, 'cc@example.com',
+                                                           # 'bcc@example.com')
                                    #cl.CalendarUpdateAbstract.UpdateBlockerBody(yaml_content['Date of Session'])
                                 except Exception as e:
                                     print(e)
