@@ -1,6 +1,6 @@
 ---
 Date of Session: 2023-10-31
-Invitation-sent: true
+Invitation-sent: false
 ---
 ```
 
