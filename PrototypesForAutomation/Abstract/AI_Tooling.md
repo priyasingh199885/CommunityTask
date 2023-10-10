@@ -68,7 +68,7 @@ The field of AI tools is evolving rapidly, therefore it's best to try and stay c
 
 ```yaml
 ---
-Date of Session: 2023-07-31
+Date of Session: 2023-09-31
 Date of Evaluation: 2022-02-11
 Development Phase: Code
 Adoption Readiness: Early Adopter
