@@ -1,7 +1,6 @@
-```yaml
 ---
 Date of Session: 2023-10-31
-Invitation-sent: False
+Invitation-sent: true
 ---
 ```
 
@@ -84,4 +83,3 @@ Cluster: Test Automation, Developer Experience
 External Speaker: No
 Invitation-sent: False
 ---
-```
