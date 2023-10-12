@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened]
     paths:
-      - 'your-specific-folder/*'
+      - 'PrototypesForAutomation/Abstract/*'
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
            PR_JSON=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" $PR_ID/files)
            FILE=$(echo $PR_JSON | jq -r '.[0] .filename')
 
-           if [[ $FILE =~ ^your-specific-folder/ ]]; then
+           if [[ $FILE =~ ^^PrototypesForAutomation/Abstract/* ]]; then
              echo "Inserting metadata to $FILE"
              echo "metadata here" >> $FILE
 
@@ -33,7 +33,7 @@ jobs:
              git commit -m "Update $FILE with metadata"
              git push
            else
-             echo "$FILE is not part of your-specific-folder, skipping..."
+             echo "$FILE is not part of PrototypesForAutomation/Abstract/, skipping..."
            fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
