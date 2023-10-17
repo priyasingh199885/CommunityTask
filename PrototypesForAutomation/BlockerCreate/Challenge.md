@@ -3,3 +3,4 @@
 2. Monday Blockers are counted, and there might be slots empty on tuesdays till friday, do we want to keep them open for booking?
 3. Check if all the count of blockers occur at different time slot, and there are no 2 blockers at the same time. ex: 13th septmeber
 4. Verify all available slots displayed.
+5. Cancelled meetings are counted in weekly meeting.
