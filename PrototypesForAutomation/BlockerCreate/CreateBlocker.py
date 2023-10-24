@@ -1,9 +1,12 @@
 import os
 
+import eel
 import win32com.client as win32
-from datetime import datetime, timedelta, time
+from datetime import datetime, timedelta, time, timezone
 import SpeakerProfile
 outlook = win32.Dispatch("Outlook.Application")
+
+@eel.expose
 def create_draft_invitation(subject, meeting_date, start_time, duration,attendees, optional_attendees, body):
     #outlook = win32com.client.Dispatch("Outlook.Application")
 
@@ -16,20 +19,27 @@ def create_draft_invitation(subject, meeting_date, start_time, duration,attendee
         template = os.path.join(os.getcwd(), 'BlockerTemplate.oft')
     else:
         template = os.path.join(os.getcwd(), 'BlockerTemplateExternal.oft')
-    appointment = outlook.CreateItemFromTemplate(template)
-
+    try:
+        appointment = outlook.CreateItemFromTemplate(template)
+    except AttributeError as e:
+        print("AttributeError:", e)
+    #appointment = outlook.CreateItemFromTemplate(template)
+    print(type(meeting_date))
+    print(type(start_time))
     # set start and end time for meeting
-    start_datetime = datetime.combine(meeting_date, start_time)
+    start_datetime = datetime.combine(meeting_date, start_time, tzinfo=timezone.utc)
+    print(start_datetime)
     end_datetime = start_datetime + duration
-
+    end_datetime=end_datetime.replace(tzinfo=timezone.utc)
     # create new appointment item
     #appointment = appointments.Add(1)
     appointment.Start = start_datetime
+    print(appointment.Start)
     appointment.End = end_datetime
     appointment.Subject = subject
     if len(attendees)>1 and profile =="internal":
         appointment.Body = appointment.Body.replace("Speaker_name", "Colleagues")
-    else:
+    if len(attendees)==1 and profile =="internal":
         appointment.Body = appointment.Body.replace("Speaker_name", speaker_name[0])
     # set the meeting status to olMeeting (1), so it becomes a meeting invitation
     appointment.MeetingStatus = 1
@@ -59,4 +69,5 @@ attendees = []  # list of attendees emails
 attendees = input("Enter the email addresses for required attendees, separated by commas: ").split(',')
 optional_attendees = ['priya.singh05@sap.com']  # list of optional (cc) attendees emails
 create_draft_invitation(subject, meeting_date, start_time, duration, attendees, optional_attendees, body='')
+
 """

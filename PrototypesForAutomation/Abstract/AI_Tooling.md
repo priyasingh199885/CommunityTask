@@ -1,9 +1,9 @@
+```yaml
 ---
-Date of Session: 2023-10-31
-Invitation-sent: false
+Date of Session: 2023-07-31
+Invitation-sent: False
 ---
-
-
+```
 # Ecosystem: AI Engineering Tools
 
 In this session Christian will show you what development looks like when you can use AI based development tools.
@@ -74,7 +74,7 @@ The field of AI tools is evolving rapidly, therefore it's best to try and stay c
 
 ```yaml
 ---
-Date of Session: 2023-10-31
+Date of Session: 2023-07-31
 Date of Evaluation: 2022-02-11
 Development Phase: Code
 Adoption Readiness: Early Adopter
@@ -83,3 +83,4 @@ Cluster: Test Automation, Developer Experience
 External Speaker: No
 Invitation-sent: False
 ---
+```

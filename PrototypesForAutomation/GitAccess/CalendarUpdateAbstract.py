@@ -27,7 +27,7 @@ calendar.IncludeRecurrences = "True"
 def UpdateBlockerBody(date_of_session):
     # Specify the date range
     date_obj = datetime.strptime(date_of_session, '%Y-%m-%d')
-
+    #date_obj=date_of_session
     # add 1 day to the date
     new_date_obj = date_obj + timedelta(days=1)
 
@@ -56,6 +56,6 @@ def UpdateBlockerBody(date_of_session):
             appointment.Display(True)
             print(appointment.body)
 
-dates ="2023-08-23"
+#dates ="2023-08-23"
 #date_object = datetime.strptime(dates, "%Y-%m-%d")
-UpdateBlockerBody(dates)
+#UpdateBlockerBody(dates)

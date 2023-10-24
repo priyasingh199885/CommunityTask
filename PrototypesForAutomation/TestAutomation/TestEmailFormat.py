@@ -1,8 +1,8 @@
 import unittest
 import re
-import RememberSpeaker.RememberSpeakerDraft
+import Archive.RememberSpeakerDraft
 
-#email=RememberSpeaker.RememberSpeakerDraft.to
+#email=Archive.RememberSpeakerDraft.to
 def valid_email(email):
     if re.match(r"[^@]+@[^@]+\.[^@]+", email):
         return True

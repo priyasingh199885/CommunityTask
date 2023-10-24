@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="/eel.js"></script>
+  <style>
+     table {border-collapse: collapse; width: 100%;}
+     th, td {text-align: left; padding: 8px;}
+     th {background-color: #4CAF50;color: white;}
+  </style>
+</head>
+<body>
+  <h1>My Meetings</h1>
+  <div id='content'>Loading...</div>
+  <script type="text/javascript">
+    eel.get_content()(function (content) {
+        document.getElementById('content').innerHTML = content;
+    });
+  </script>
+  <script type="text/javascript">
+    function updateReminder(startTime) {
+        eel.update_reminder(startTime);
+        window.location.reload();
+        event.preventDefault();
+        event.stopPropagation();
+    }
+  </script>
+</body>
+</html>
