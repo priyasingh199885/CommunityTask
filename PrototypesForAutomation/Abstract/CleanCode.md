@@ -100,13 +100,13 @@ If you do not miss an update on clean code, test automation, communities of prac
 
 ```yaml
 ---
-Date of Session: 2023-11-30
-Date of Evaluation: 2022-01-01
-Development Phase: Code
 Adoption Readiness: Early Adopter
-Scopes: CAP Java, CAP node.js, Java
 Cluster: Test Automation, DevOps, Developer Experience
-External Speaker: No
-Invitation-sent: no
+Date of Evaluation: 2022-01-01
+Date of Session: 2023-11-30
+Development Phase: Code
+External Speaker: false
+Invitation-sent: false
+Scopes: CAP Java, CAP node.js, Java
 ---
 ``` 
