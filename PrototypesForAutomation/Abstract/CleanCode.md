@@ -100,7 +100,7 @@ If you do not miss an update on clean code, test automation, communities of prac
 
 ```yaml
 ---
-Date of Session: 2023-07-30
+Date of Session: 2023-11-30
 Date of Evaluation: 2022-01-01
 Development Phase: Code
 Adoption Readiness: Early Adopter
