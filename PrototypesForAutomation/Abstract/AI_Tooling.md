@@ -1,9 +1,3 @@
-```yaml
----
-Date of Session: 2023-07-31
-Invitation-sent: False
----
-```
 # Ecosystem: AI Engineering Tools
 
 In this session Christian will show you what development looks like when you can use AI based development tools.
