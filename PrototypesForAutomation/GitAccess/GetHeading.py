@@ -3,6 +3,7 @@ def get_first_heading(raw_content):
     lines = raw_content[2].split('\n')
 
     # Iterate over the lines
+    
     for line in lines:
         # If the line starts with '#', return it
         if line.strip().startswith('#'):

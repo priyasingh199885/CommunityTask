@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Meetings</title>
+        <script type="text/javascript" src="/eel.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid black; padding: 15px; text-align: left; }
+            th { background-color: #4CAF50; color: white; }
+        </style>
+    </head>
+    <body>
+        <div id="meetings"></div>
+
+        <script type="text/javascript">
+            async function loadMeetings() {
+                let meetings = await eel.get_meetings()();
+                $('#meetings').html(meetings);
+                $('.reminderLink').click(async function (event) {
+                    event.preventDefault();
+                    let start = $(this).attr('data-start');
+                    await eel.set_reminder(start)();
+                    loadMeetings();
+                });
+            }
+
+            $(function() { // on document ready
+                loadMeetings();
+            });
+        </script>
+    </body>
+</html>

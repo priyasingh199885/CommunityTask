@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href='#' onclick='callPythonFunc("Tuesday 10am-11am", "Week 49 of December 2023")'>Tuesday 10am-11am</a>
+<a href='#' onclick='callPythonFunc("Tuesday 3pm-4pm", "Week 49 of December 2023")' style='color:red'>Tuesday 3pm-4pm</a>
+<a href='#' onclick='callPythonFunc("Tuesday 4pm-5pm", "Week 49 of December 2023")'>Tuesday 4pm-5pm</a>
+<a href='#' onclick='callPythonFunc("Wednesday 10am-11am", "Week 49 of December 2023")'>Wednesday 10am-11am</a>
+<a href='#' onclick='callPythonFunc("Wednesday 3pm-4pm", "Week 49 of December 2023")'>Wednesday 3pm-4pm</a>
+<a href='#' onclick='callPythonFunc("Wednesday 4pm-5pm", "Week 49 of December 2023")'>Wednesday 4pm-5pm</a>
+<a href='#' onclick='callPythonFunc("Thursday 10am-11am", "Week 49 of December 2023")'>Thursday 10am-11am</a>
+<a href='#' onclick='callPythonFunc("Thursday 3pm-4pm", "Week 49 of December 2023")'>Thursday 3pm-4pm</a>
+<a href='#' onclick='callPythonFunc("Thursday 4pm-5pm", "Week 49 of December 2023")'>Thursday 4pm-5pm</a>
+
+</body>
+<script type="text/javascript" src="/eel.js"></script>
+<script type="text/javascript">
+    function callPythonFunc(slot,week) {
+        eel.create_draft_invitations(slot,week)((response) => console.log(response));
+    }
+</script>
+</html>

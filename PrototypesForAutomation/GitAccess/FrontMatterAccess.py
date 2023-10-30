@@ -30,7 +30,7 @@ def updateAbstract(file_to_invite):
             print(raw_content[0])
             print(raw_content[1])
             print(raw_content[2])
-            print(raw_content[3])
+            #print(raw_content[3])
             #updated_content = raw_content[0] + "---" + updated_yaml_block + "---" + raw_content[2]
             updated_content = "---\n" + updated_yaml_block + "---" + raw_content[2] + "---" + raw_content[3] + "---"
             updated_content_encoded = base64.b64encode(updated_content.encode('utf-8')).decode(
@@ -104,4 +104,4 @@ def extract_frontmatter(files):
 # token = os.environ.get('SECRET_TOKEN')
 files = GetAccessGit.files
 frontmatter = extract_frontmatter(files)
-selectSession(md_files_to_invite)
+selectSession(frontmatter)
