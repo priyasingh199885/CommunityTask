@@ -19,3 +19,5 @@ PS: Initially, before using this code, the db needs to be updated manually from 
 1. Currently, the template says "Hi, I am Priya..." this is the name of the working student. Template can be modified in the future, however code will need no change.
 2. If the moderator wants to do this task, then template needs to be updated without the need for any other step.
 3. If outlook was used to manually send remember (in case of urgency) then find a way to still add the reminder variable value in automation.db.
+4. Add column in remember - displaying date when sent.
+5. Dependency updates, code style, -- review.
