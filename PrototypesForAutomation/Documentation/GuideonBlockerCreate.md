@@ -2,7 +2,7 @@
 The purpose of this file is to help create blockers for future sessions.
 
 ## Steps
-1. Run BlockerCreate/WeekOfMonth.py 
+1. Run BlockerCreate/WeekOfYears.py 
    Please keep Outlook session open in background.This file will update all available slots from your calendar for this year.
 2. Generates BlockerCreate/output.html file 
    This file contains all the available slots in a html table format.
